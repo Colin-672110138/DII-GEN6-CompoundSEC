@@ -137,7 +137,7 @@ class Guest {
 }
 
 // Class สำหรับ Admin
-class Admin {
+class Admin { //admin
     public static ArrayList<Card> cards = new ArrayList<>(); // เก็บข้อมูลบัตร
     public static ArrayList<String> historyLog = new ArrayList<>(); // เก็บ log การสร้างและลบบัตร รวมถึง log การเข้าใช้ห้องของ Guest
 
@@ -366,7 +366,7 @@ class Admin {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return sdf.format(new Date());
     }
-}
+}  //admin
 
 // Class สำหรับ Card
 class Card {
@@ -419,4 +419,4 @@ class Card {
         return "Guest Name: " + guestName + ", Floor: " + floor + ", Room: " + roomNumber + ", Card Number: " + cardNumber;
     }
 }
-//new
+//neww
